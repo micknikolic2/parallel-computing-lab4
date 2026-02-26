@@ -21,11 +21,11 @@ def compute_local_integral(local_n, local_a, h):
         Width of each trapezoid.
     """
     # --- TODO: Task 3 — Implement the trapezoidal rule locally ---
-    # local_b = local_a + local_n * h
-    # integral = (f(local_a) + f(local_b)) / 2.0
-    # for i in range(1, local_n):
-    #     integral += f(local_a + i * h)
-    # return integral * h
+    local_b = local_a + local_n * h
+    integral = (f(local_a) + f(local_b)) / 2.0
+    for i in range(1, local_n):
+        integral += f(local_a + i * h)
+    return integral * h
     # --- End TODO ---
     return 0.0  # Placeholder so the starter runs; replace with the code above.
 
