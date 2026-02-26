@@ -9,10 +9,10 @@ mpiexec -n P python lab4_pi_integration.py  # P = 1, 2, 4, ...
 
 Number of Processes (P) | Pi Approximation | Execution Time (s)
 --- | --- | ---
-1 | [enter value] | [enter time]
-2 | [enter value] | [enter time]
-4 | [enter value] | [enter time]
-[add more rows if tested] |  | 
+1 | 3.141592653589987 | 0.4167
+2 | 3.141592653589722 | 0.2545
+4 | 3.141592653589782 | 0.2467
+8 | 3.141592653589801 | 0.2724
 
 ## Analysis questions
 
